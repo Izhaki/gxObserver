@@ -134,10 +134,10 @@ public:
         mSubject->gxSubscribe( evNoParameters, OnNoParametersEvent );
         mSubject->gxSubscribe( evAge, OnAgeChanged );
         mSubject->gxSubscribe( evQuad, OnQuad );
-        mSubject->gxSubscribe( evSize, OnSize );
         
-        // This will be ignored as we've just subscribed to the same event.
         mSubject->gxSubscribe( evSize, OnSize );
+        mSubject->gxSubscribe( evSize, OnSize ); // This will be ignored as we've just subscribed to the same event.
+        
         mSubject->gxSubscribe( evName, OnName );
         mSubject->gxSubscribe( evCity, OnCity );
     }
