@@ -1,5 +1,4 @@
-gxObserver
-==========
+![gxObserver logo](http://www.gefri.org/img/gxObserver.png "gxObserver")
 
 A Sleek C++ Implementation of the Observer Pattern
 
